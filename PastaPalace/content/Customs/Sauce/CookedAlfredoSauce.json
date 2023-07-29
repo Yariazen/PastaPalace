@@ -1,0 +1,43 @@
+{
+    "Type": "Item",
+    "Modification": "NewGDO",
+    "UniqueNameID": "CookedAlfredoSauce",
+    "GDOName": "Cooked Alfredo Sauce",
+    "Prefab": "CookedAlfredoSauce",
+    "AllowSplitMerging": true,
+    "DisposesTo": "Pot",
+    "PreventExplicitSplit": true,
+    "SplitCount": 10,
+    "SplitDepletedItems": [
+        "Pot"
+    ],
+    "SplitSubItem": "PastaPalace:AlfredoSauce",
+    "Materials": {
+        "Tree": {
+            "Pot": {
+                "base": "Metal",
+                "handle": "Metal Dark"
+            },
+            "Sauce": {
+                "sauce": "Plastic - Light Yellow",
+                "herbs": "Plastic - Green"
+            }
+        }
+    },
+    "View": {
+        "Type": "PositionSplittableView",
+        "FullPosition": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0
+        },
+        "EmptyPosition": {
+            "x": 0,
+            "y": -0.2,
+            "z": 0
+        },
+        "Objects": [
+            "Sauce"
+        ]
+    }
+}

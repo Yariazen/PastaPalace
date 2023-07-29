@@ -1,0 +1,63 @@
+{
+    "Type": "ItemGroup",
+    "Modification": "NewGDO",
+    "UniqueNameID": "PlatedPastaMeatSauce",
+    "GDOName": "Plated Pasta with Meat Sauce",
+    "Prefab": "PlatedPasta",
+    "Sets": [
+        {
+            "Items": [
+                "Plate"
+            ],
+            "Min": 1,
+            "Max": 1,
+            "IsMandatory": true
+        },
+        {
+            "Items": [
+                "ingredientlib:pasta noodles",
+                "PastaPalace:MeatSauce"
+            ],
+            "Min": 2,
+            "Max": 2,
+            "IsMandatory": false
+        }
+    ],
+    "DirtiesTo": "PlateDirty",
+    "DisposesTo": "Plate",
+    "Materials": {
+        "Tree": {
+            "plate": [
+                "Plate",
+                "Plate - Ring"
+            ],
+            "noodles": "Raw Pastry",
+            "Meat": {
+                "meatchunk": "Meat Piece Cooked",
+                "meatsauce": "brownDark",
+                "meattomatochunks": "AppleRed"
+            }
+        }
+    },
+    "View": {
+        "Type": "ItemGroupView",
+        "ComponentGroups": [
+            {
+                "Item": "ingredientlib:pasta noodles",
+                "GameObject": "noodles"
+            },
+            {
+                "Item": "PastaPalace:RedSauce",
+                "GameObject": "Red"
+            },
+            {
+                "Item": "PastaPalace:MeatSauce",
+                "GameObject": "Meat"
+            },
+            {
+                "Item": "PastaPalace:AlfredoSauce",
+                "GameObject": "Alfredo"
+            }
+        ]
+    }
+}

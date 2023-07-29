@@ -1,0 +1,65 @@
+{
+    "Type": "ItemGroup",
+    "Modification": "NewGDO",
+    "UniqueNameID": "UncookedMeatSauce",
+    "GDOName": "Uncooked Meat Sauce",
+    "Prefab": "UncookedMeatSauce",
+    "Sets": [
+        {
+            "Items": [
+                "Pot"
+            ],
+            "Min": 1,
+            "Max": 1,
+            "IsMandatory": true
+        },
+        {
+            "Items": [
+                "TomatoSauce",
+                "MeatChopped"
+            ],
+            "Min": 2,
+            "Max": 2,
+            "IsMandatory": false
+        }
+    ],
+    "Materials": {
+        "Tree": {
+            "Pot": {
+                "base": "Metal",
+                "handle": "Metal Dark"
+            },
+            "Component1": {
+                "meatchopped": [
+                    "Raw Fat",
+                    "Raw"
+                ]
+            },
+            "Component2": {
+                "sauce": "Tomato Flesh",
+                "tomatochunks": "AppleRed"
+            }
+        }
+    },
+    "View": {
+        "Type": "ItemGroupView",
+        "ComponentGroups": [
+            {
+                "Item": "MeatChopped",
+                "GameObject": "Component1"
+            },
+            {
+                "Item": "TomatoSauce",
+                "GameObject": "Component2"
+            }
+        ]
+    },
+    "Processes": [
+        {
+            "Process": "Cook",
+            "Result": "PastaPalace:CookedMeatSauce",
+            "Duration": 10
+        }
+    ],
+    "DisposesTo": "Pot"
+}

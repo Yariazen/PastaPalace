@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2450596033
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: pastapalace.assets
+      Dependencies: {}

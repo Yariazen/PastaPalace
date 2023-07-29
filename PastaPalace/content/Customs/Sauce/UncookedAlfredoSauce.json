@@ -1,0 +1,64 @@
+{
+    "Type": "ItemGroup",
+    "Modification": "NewGDO",
+    "UniqueNameID": "UncookedAlfredoSauce",
+    "GDOName": "Uncooked Alfredo Sauce",
+    "Prefab": "UncookedAlfredoSauce",
+    "Sets": [
+        {
+            "Items": [
+                "Pot"
+            ],
+            "Min": 1,
+            "Max": 1,
+            "IsMandatory": true
+        },
+        {
+            "Items": [
+                "CheeseGrated",
+                "Milk"
+            ],
+            "Min": 2,
+            "Max": 2,
+            "IsMandatory": false
+        }
+    ],
+    "Materials": {
+        "Tree": {
+            "Pot": {
+                "base": "Metal",
+                "handle": "Metal Dark"
+            },
+            "Component1": {
+                "cheese1": "Cheese - Default",
+                "cheese2": "Cheese - Default",
+                "cheese3": "Cheese - Default"
+            },
+            "Component2": {
+                "sauce": "Plastic - White",
+                "herbs": "Plastic - Green"
+            }
+        }
+    },
+    "View": {
+        "Type": "ItemGroupView",
+        "ComponentGroups": [
+            {
+                "Item": "CheeseGrated",
+                "GameObject": "Component1"
+            },
+            {
+                "Item": "Milk",
+                "GameObject": "Component2"
+            }
+        ]
+    },
+    "Processes": [
+        {
+            "Process": "Cook",
+            "Result": "PastaPalace:CookedAlfredoSauce",
+            "Duration": 10
+        }
+    ],
+    "DisposesTo": "Pot"
+}

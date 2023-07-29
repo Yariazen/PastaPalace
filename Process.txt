@@ -1,0 +1,65 @@
+Red Sauce:
+Pot + TomatoSauce + TomatoSauce -> UncookedRedSauce
+UncookedRedSauce -- Cook --> CookedRedSauce
+CookedRedSauce -- Portion --> RedSauce
+
+Meat Sauce:
+Pot + TomatoSauce + MeatChopped -> UncookedMeatSauce
+UncookedMeatSauce -- Cook --> CookedMeatSauce
+CookedMeatSauce -- Portion --> MeatSauce
+
+Alfredo Sauce:
+Pot + CheeseGrated + milk ingredient -> UncookedAlfredoSauce
+UncookedAlfredoSauce -- Cook --> CookedAlfredoSauce
+CookedAlfredoSauce -- Portion --> AlfredoSauce
+
+Pasta:
+Plate + pasta noodles + RedSauce -> PlatedPastawithRedSauce
+Plate + pasta noodles + MeatSauce -> PlatedPastawithMeatSauce
+Plate + pasta noodles + AlfredoSauce -> PlatedPastawithAlfredoSauce
+
+Gnocchi:
+EggDough + PotatoChopped -> RawGnocchi
+Pot + Water + RawGnocchi -> UncookedGnocchi
+UncookedGnocchi -- Cook --> CookedGnocchi
+CookedGnocchi -- Portion --> Gnocchi
+Plate + Gnocchi + RedSauce -> PlatedGnocchiwithRedSauce
+Plate + Gnocchi + MeatSauce -> PlatedGnocchiwithMeatSauce
+Plate + Gnocchi + AlfredoSauce -> PlatedGnocchiwithAlfredoSauce
+
+Carbonara:
+EggCracked + milk ingredient + CheeseChopped -> UncookedCarbonaraSauce
+UncookedCrabonaraSauce -- Cook --> CookedCarbonaraSauce
+PlatedPasta + CookedCarbonaraSauce -> Carbonara
+
+Cheese Ravioli:
+EggDough + CheeseChopped -> RawCheeseRavioli
+Pot + Water + RawCheeseRavioli -> UncookedCheeseRavioli
+UncookedCheeseRavioli -- Cook --> CookedCheeseRavioli
+CookedCheeseRavioli -- Portion --> CheeseRavioli
+Plate + CheeseRavioli -> PlatedCheeseRavioli
+PlatedCheeseRavioli + RedSauce-> PlatedCheeseRavioliRedSauce
+
+Meat Ravioli:
+EggDough + MeatChopped -> RawMeatRavioli
+Pot + Water + RawMeatRavioli -> UncookedMeatRavioli
+UncookedMeatRavioli -- Cook --> CookedMeatRavioli
+CookedMeatRavioli -- Portion --> MeatRavioli
+Plate + MeatRavioli -> PlatedMeatRavioli
+PlatedMeatRavioli + SteakSauceRedWineJus -> PlatedMeatRavioliWineSauce
+
+Mushroom Ravioli:
+EggDough + MushroomChopped -> RawMushroomRavioli
+Pot + Water + RawMushroomRavioli -> UncookedMushroomRavioli
+UncookedMushroomRavioli -- Cook --> CookedMushroomRavioli
+CookedMushroomRavioli -- Portion --> MushroomRavioli
+Plate + MushroomRavioli -> PlatedMushroomRavioli
+PlatedMushroomRavioli + AlfredoSauce -> PlatedMushroomRavioliAlfredoSauce
+
+
+
+Gnocchi with Red Sauce:
+Plated Gnocchi + Red Sauce -> Plated Gnocchi with Red Sauce
+
+Gnocchi with Alfredo Sauce:
+Plated Gnocchi + Alfredo Sauce -> Plated Gnocchi with White Sauce

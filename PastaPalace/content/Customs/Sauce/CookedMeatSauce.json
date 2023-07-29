@@ -1,0 +1,44 @@
+{
+    "Type": "Item",
+    "Modification": "NewGDO",
+    "UniqueNameID": "CookedMeatSauce",
+    "GDOName": "Cooked Meat Sauce",
+    "Prefab": "CookedMeatSauce",
+    "AllowSplitMerging": true,
+    "DisposesTo": "Pot",
+    "PreventExplicitSplit": true,
+    "SplitCount": 10,
+    "SplitDepletedItems": [
+        "Pot"
+    ],
+    "SplitSubItem": "PastaPalace:MeatSauce",
+    "Materials": {
+        "Tree": {
+            "Pot": {
+                "base": "Metal",
+                "handle": "Metal Dark"
+            },
+            "Sauce": {
+                "sauce": "brownDark",
+                "herbs": "Meat Piece Cooked",
+                "tomatochunks": "AppleRed"
+            }
+        }
+    },
+    "View": {
+        "Type": "PositionSplittableView",
+        "FullPosition": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0
+        },
+        "EmptyPosition": {
+            "x": 0,
+            "y": -0.2,
+            "z": 0
+        },
+        "Objects": [
+            "Sauce"
+        ]
+    }
+}

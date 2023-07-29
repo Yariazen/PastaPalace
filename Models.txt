@@ -1,0 +1,41 @@
+Uncooked Red Sauce
+Cooked Red Sauce
+Red Sauce Portion
+
+Uncooked Meat Sauce
+Cooked Meat Sauce
+Meat Sauce Portion
+
+Uncooked Alfredo Sauce
+Cooked Alfredo Sauce
+Alfredo Sauce Portion
+
+Plated Pasta
+Plated Pasta with Red Sauce
+Plated Pasta with Meat Sauce
+Plated Pasta with Alfredo Sauce
+
+UncookedCarbonaraSauce
+CookedCarbonaraSauce
+PlatedCarbonara
+
+RawCheeseRavioli
+UncookedCheeseRavioli
+CookedCheeseRavioli
+CheeseRavioli
+PlatedCheeseRavioli
+PlatedCheeseRavioliRedSauce
+
+RawMeatRavioli
+UncookedMeatRavioli
+CookedMeatRavioli
+MeatRavioli
+PlatedMeatRavioli
+PlatedMeatRavioliWineSauce
+
+RawMushroomRavioli
+UncookedMushroomRavioli
+CookedMushroomRavioli
+MushroomRavioli
+PlatedMushroomRavioli
+PlatedMushroomRavioliRedSauce
